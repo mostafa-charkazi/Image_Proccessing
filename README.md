@@ -18,3 +18,12 @@ The main features include:
 - Defining custom filters.
 - Applying filters to images.
 - Visualizing the effects of the filters on the processed images.
+
+### 3. `line_detection` - Line Detection for Robotics
+This module implements a computer vision pipeline for detecting lines in images, specifically designed for line follower robots. The algorithm processes images to identify and track lines, calculate positional errors, and provide guidance for robotic navigation.
+
+#### Parameters:
+- `THRESHOLD_VALUE`: Controls binary thresholding sensitivity (default: 125)
+- `ROI_START: Defines` the starting point of the region of interest as a percentage of image height (default: 0.55)
+- `MIN_CONTOUR_AREA`: Minimum area threshold for filtering out small/noisy contours (default: 500)
+
