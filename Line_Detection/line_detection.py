@@ -73,7 +73,3 @@ def line_detection(image_path, THRESHOLD_VALUE=125, ROI_START=0.55, MIN_CONTOUR_
     )
 
     return error
-
-url = 'images/2.png'
-error = line_detection(url)
-print(f"Error: {error}")
